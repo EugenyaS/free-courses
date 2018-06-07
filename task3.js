@@ -62,7 +62,7 @@ function TestTime(input1, input2) {
 	{
         strTotal='2 дня '+strTotal;
     };
-    return strTotal;
+    return strTotal.trim();
 }
 
 process.stdout.write(TestTime(process.argv[2],process.argv[3]);
