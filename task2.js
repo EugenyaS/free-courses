@@ -22,4 +22,4 @@ if (input1.length==input2.length)
      }
 };  
   
-process.stdout.write(fl);
+process.stdout.write(String(fl));
