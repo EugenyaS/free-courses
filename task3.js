@@ -1,5 +1,5 @@
 /* Task 3 */
-var total=process.argv[2]+process.argv[3];
+var total=Number(process.argv[2])+Number(process.argv[3]);
 var strTotal="";
 // секунды
 if ( (total%60<20)&&(total%60>10) || (total%60!=0)&&(total%60%10==0) ) 
