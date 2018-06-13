@@ -32,7 +32,7 @@ total-=total%60;
 total/=60;
 // часы  
     
-if ( (total<=20)&&(total>4) || (total%10>4)&&(total%10<=9)||(total%10==0)) {
+if (( (total<=20)&&(total>4) || (total%10>4)&&(total%10<=9)||(total%10==0)) && (total>0)) {
    strTotal=String(total)+' часов '+strTotal; 
 }
 else if ( (total%10==1)) {
